@@ -196,10 +196,10 @@
 // const hehh= "hgahghaghgahgahag";
 // console.log(hehh.length);
 
-const bodlogo5 = "yuuugmeerchimde";
-let urtn = bodlogo5.length;
-let lastIndexofCharacter = urtn - 1;
-console.log(bodlogo5[0] + bodlogo5[lastIndexofCharacter]);
+// const bodlogo5 = "yuuugmeerchimde";
+// let urtn = bodlogo5.length;
+// let lastIndexofCharacter = urtn - 1;
+// console.log(bodlogo5[0] + bodlogo5[lastIndexofCharacter]);
 
 // const bodlogo6 = "hi";
 // console.log(bodlogo6.toUpperCase());
@@ -300,65 +300,61 @@ console.log(bodlogo5[0] + bodlogo5[lastIndexofCharacter]);
 
 //   console.log(realyear ,"years", months, "months", days, "days", hours, "hours", minute, "minutes", second, "seconds", millsecond, "millseconds");
 
-const dugaar = 1371;
+// const dugaar = 1371;
 
-if (((dugaar[3] = 1), (dugaar[3] = 6))) {
-  console.log("Monday");
-} else if (((dugaar[3] = 2), (dugaar[3] = 7))) {
-  console.log("Tuesday");
-}
+// if (((dugaar[3] = 1), (dugaar[3] = 6))) {
+//   console.log("Monday");
+// } else if (((dugaar[3] = 2), (dugaar[3] = 7))) {
+//   console.log("Tuesday");
+// }
 
-const i = 99,
-  you = 18,
-  we = 78;
-if (i < you && we < you) {
-  console.log(you);
-} else if (i > you && i > we) {
-  console.log(i);
-} else if (we > you && we > i) {
-  console.log(we);
-}
+// const i = 99,
+//   you = 18,
+//   we = 78;
+// if (i < you && we < you) {
+//   console.log(you);
+// } else if (i > you && i > we) {
+//   console.log(i);
+// } else if (we > you && we > i) {
+//   console.log(we);
+// }
 
-const ishig = 70,
-  ymaa = 67,
-  uhana = 78;
-if (ishig < ymaa && ishig < uhana) {
-  console.log(ishig);
-}
-if (ymaa < ishig && ymaa < uhana) {
-  console.log(ymaa);
-}
-if (uhana < ishig && uhana < ymaa) {
-  console.log(uhana);
-}
+// const ishig = 70,
+//   ymaa = 67,
+//   uhana = 78;
+// if (ishig < ymaa && ishig < uhana) {
+//   console.log(ishig);
+// }
+// if (ymaa < ishig && ymaa < uhana) {
+//   console.log(ymaa);
+// }
+// if (uhana < ishig && uhana < ymaa) {
+//   console.log(uhana);
+// }
 
-let dun1 = 75;
+// let dun1 = 75;
 
-if (dun1 >= 90 && dun1 <= 100) {
-  console.log(dun1, "A");
-} else if (dun1 <= 89 && dun1 >= 80) {
-  console.log(dun1, "B");
-} else if (dun1 <= 79 && dun1 >= 70) {
-  console.log(dun1, "C");
-} else if (dun1 <= 69 && dun1 >= 60) {
-  console.log(dun1, "D");
-} else if (dun1 <= 59 && dun1 >= 0) {
-  console.log(dun1, "F");
-}
+// if (dun1 >= 90 && dun1 <= 100) {
+//   console.log(dun1, "A");
+// } else if (dun1 <= 89 && dun1 >= 80) {
+//   console.log(dun1, "B");
+// } else if (dun1 <= 79 && dun1 >= 70) {
+//   console.log(dun1, "C");
+// } else if (dun1 <= 69 && dun1 >= 60) {
+//   console.log(dun1, "D");
+// } else if (dun1 <= 59 && dun1 >= 0) {
+//   console.log(dun1, "F");
+// }
 
-const urjver = 25;
-let yee = parseInt(urjver / 10);
-let yoo = urjver % 10;
-console.log(yee * yoo);
+// const urjver = 25;
+// let yee = parseInt(urjver / 10);
+// let yoo = urjver % 10;
+// console.log(yee * yoo);
 
 
-const niilber = "116";
-const n = niilber.length;
-// const g = niilber[0];
-// const k = niilber[1];
-// const o = niilber[2];
-// console.log( Number[g] + Number[k] + Number[o]);
-console.log(n[0] + n[1] + n[2]);
+// const niilber = "116";
+// const n = niilber.length;
+// console.log(n[0] + n[1] + n[2]);
 
 
 let jil3 = 3, sar3 = 7;
@@ -410,7 +406,6 @@ const a2=10;
 const a3=11;
 
 let urjver1=1;
-
 if(a1%2===1){
   urjver1 *= a1
 }
