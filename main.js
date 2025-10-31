@@ -334,17 +334,17 @@
 
 // let dun1 = 75;
 
-// if (dun1 >= 90 && dun1 <= 100) {
-//   console.log(dun1, "A");
-// } else if (dun1 <= 89 && dun1 >= 80) {
-//   console.log(dun1, "B");
-// } else if (dun1 <= 79 && dun1 >= 70) {
-//   console.log(dun1, "C");
-// } else if (dun1 <= 69 && dun1 >= 60) {
-//   console.log(dun1, "D");
-// } else if (dun1 <= 59 && dun1 >= 0) {
-//   console.log(dun1, "F");
-// }
+if (dun1 >= 90 && dun1 <= 100) {
+  console.log(dun1, "A");
+} else if (dun1 <= 89 && dun1 >= 80) {
+  console.log(dun1, "B");
+} else if (dun1 <= 79 && dun1 >= 70) {
+  console.log(dun1, "C");
+} else if (dun1 <= 69 && dun1 >= 60) {
+  console.log(dun1, "D");
+} else if (dun1 <= 59 && dun1 >= 0) {
+  console.log(dun1, "F");
+}
 
 // const urjver = 25;
 // let yee = parseInt(urjver / 10);
