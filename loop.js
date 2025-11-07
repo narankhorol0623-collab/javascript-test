@@ -393,14 +393,14 @@
 // //   }
 // // }
 
-// // let numberarray = [1, 21, 3, 4, 5, 7, 8, 9, 10];
-// // let max = numberarray[0];
-// // for (let i = 0; i < numberarray.length; i++) {
-// //   if (max < numberarray[i]) {
-// //     max = numberarray[i];
-// //   }
-// // }
-// // console.log(max);
+let numberarray = [1, 21, 3, 4, 5, 7, 8, 9, 10];
+let max = numberarray[0];
+for (let i = 0; i < numberarray.length; i++) {
+  if (max < numberarray[i]) {
+    max = numberarray[i];
+  }
+}
+console.log(max);
 
 // // let s = [1, 21, 3, 4, 5, 7, 8, 9, 10];
 // // let min = s[0];
