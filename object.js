@@ -259,6 +259,194 @@
 // }
 // console.log(unique);
 
+// const loop = "This is a loop example";
+// console.log(loop);
+
+// students = [
+//      {name: "Бат", math: 70, english: 80, science: 90},
+//      {name: "Сара", math: 60, english: 85, science: 95},
+//      {name: "Наран", math: 100, english: 90, science: 80}
+//     ]
+// let total= {name: "", average: 0};
+//     for (let i=0; i < students.length; i++) {
+//         let score = (students[i].math + students[i].english + students[i].science) / 3;
+//         if(score > total.average){
+//             total.name = students[i].name;
+//             total.average = score;
+//         }
+//     }
+//     console.log(total);
+
+// const student = [
+//     {name: "Бат", math: 95, english: 100, science: 95},
+//     {name: "Сара", math: 92, english: 58, science: 100}
+// ]
+//  for (let i=0; i < student.length; i++) {
+//     let score = (student[i].math + student[i].english + student[i].science);
+//     if (score > 270) {
+//         console.log(student[i].name + " шилдэг сурагч");
+
+// //     }
+// //  }
+
+// //  const students2 = [
+// //     {name: "Бат", math: 70, english: 80, science: 90},
+// //     {name: "Сара", math: 60, english: 85, science: 95},
+// //     {name: "Наран", math: 100, english: 90, science: 80}
+// // ]
+// // for (let i=0; i < students2.length; i++){
+// //     let score = (students2[i].math + students2[i].english + students2[i].science) / 3;
+// //     if (score >= 80){
+// //         console.log(students2[i].name + " муу оноотой");
+// //     }
+// // }
+
+// // const products = [
+// //     {title: "Уут", price: 500, sold: 10, discount: 0.1},
+// //     {title: "Сав", price: 800, sold: 5, discount: 0.2},
+// //     {title: "Савх", price: 600, sold: 12, discount: 0.15}
+// // ]
+// // for (let i=0; i < products.length; i++){
+// //     let revenue = products[i].price * products[i].sold * (1 - products[i].discount);
+// //     if (revenue < 4000){
+// //         console.log(products[i].title + " борлуулалт муу байна");
+// //     }
+// // }
+
+// // const books = [
+// //     {title: "Монгол түүх", pages: 120, year: 2000, rating: 4.5},
+// //     {title: "Газар зүй", pages: 150, year: 2010, rating: 4.8},
+// //     {title: "Улс төр", pages: 200, year: 2005, rating: 4.2}
+// // ]
+// // for (let i=0; i < books.length; i++){
+// //     if(books[i].rating > books[0].rating){
+// //         console.log(books[i].title + " номын үнэлгээ сайн байна");
+// //     }
+// // }
+// // const students3 = [
+// //     {name: "Бат", age: 20, math: 70, english: 80},
+// //     {name: "Сара", age: 22, math: 60, english: 85},
+// //     {name: "Наран", age: 21, math: 90, english: 95}
+// // ]
+// // for (let i=0; i <students3.length; i++){
+// //     if(students3[i].age > 21)[
+// //         c = students3[i].math + students3[i].english / 2;
+// //         console.log(students3[i].name + " дундаж оноо: " + c);
+// //     ]
+// // }
+
+// // const employees = [
+// //     {name: "Амгалан", salary: 1000, bonus: 200, taxRate: 0.1},
+// //     {name: "Номин", salary: 1500, bonus: 300, taxRate: 0.2},
+// //     {name: "Баяр", salary: 1200, bonus: 100, taxRate: 0.15}
+// // ]
+// // for (let i=0; i < employees.length; i++){
+// //     let netSalary = (employees[i].salary + employees[i].bonus) * (1 - employees[i].taxRate);
+// //     if (netSalary > 1300){
+// //         console.log(employees[i].name + " цалин өндөр байна");
+// //     }
+// // }
+
+// // const products = [
+// //     {title: "Уут", price: 500, sold: 10, category: "Plastic"},
+// //     {title: "Сав", price: 800, sold: 5, category: "Metal"},
+// //     {title: "Савх", price: 600, sold: 12, category: "Plastic"}
+// // ]
+// // for (let i=0; i < products.length; i++){
+// //     if (products[i].category === "Plastic"){
+// //         let revenue = products[i].price * products[i].sold;
+// //         console.log(products[i].title + " борлуулалт: " + revenue);
+// //     }
+// // }
+// // const books = [
+// //     {title: "Монгол түүх", price: 1200, sold: 10, discount: 0.1},
+// //     {title: "Газар зүй", price: 1500, sold: 5, discount: 0.05},
+// //     {title: "Улс төр", price: 1000, sold: 20, discount: 0.2}
+// // ]
+// // for (let i=0; i < books.length; i++){
+// //     let totalRevenue = books[i].price * books[i].sold * (1 - books[i].discount);
+// //     if (totalRevenue > 10000){
+// //         console.log(books[i].title + " нийт орлого их байна");
+// //     }
+// // }
+
+// // const students = [
+// //     {name: "Бат", math: 70, english: 80, science: 90},
+// //     {name: "Сара", math: 60, english: 85, science: 95},
+// //     {name: "Наран", math: 100, english: 90, science: 80}
+// // ]
+// // let massive = [];
+// // for (let i=0; i < students.length; i++){
+// //     if(students[i].math >= 80 && students[i].english >= 80 && students[i].science >= 80){
+// //         massive.push(students[i].math);
+// //         massive.push(students[i].english);
+// //         massive.push(students[i].science);
+// // }
+// // }
+// // console.log(massive);
+
+// // const employees2 = [
+// //     {name: "Амгалан", salary: 1000, active: true, department: "IT"},
+// //     {name: "Номин", salary: 1500, active: false, department: "HR"},
+// //     {name: "Баяр", salary: 1200, active: true, department: "IT"}
+// // ]
+// // let itEmployees = [];
+// // for(let i=0; i < employees2.length; i++){
+// //     if(employees2[i].active === true && employees2[i].department === "IT"){
+// //        itEmployees.push(employees2[i]);
+// //     }
+// // }
+// // console.log(itEmployees);
+
+// const products = [
+//   { title: "Уут", price: 500, sold: 10, category: "Plastic" },
+//   { title: "Сав", price: 800, sold: 5, category: "Metal" },
+//   { title: "Савх", price: 600, sold: 12, category: "Plastic" },
+// ];
+// for (let i = 0; i < products.length; i++) {
+//   d = products[i].price / products[i].sold;
+//   if (d < 55) {
+//     console.log(products[i]);
+//   }
+// }
+
+// const books = [
+//   { title: "Монгол түүх", pages: 120, rating: 4.5 },
+//   { title: "Газар зүй", pages: 150, rating: 4.8 },
+//   { title: "Улс төр", pages: 200, rating: 4.2 },
+// ];
+// let revenue = { name: "", total: 0 };
+// for (let i = 0; i < books.length; i++) {
+//   c = (books[i].pages + books[i].rating) / 2;
+//   if (c > 100) {
+//     c += revenue.total;
+//     revenue.name = books[i].title;
+//     revenue.total = c;
+//     console.log(revenue);
+//   }
+// }
+
+// const students = [
+//   { name: "Бат", math: 70, english: 80, science: 90 },
+//   { name: "Сара", math: 60, english: 85, science: 95 },
+//   { name: "Наран", math: 100, english: 90, science: 80 },
+// ];
+// let subjects = { name: "", average: 0 };
+// for (let i = 0; i < students.length; i++) {
+//   f = (students[i].math + students[i].english + students[i].science) / 3;
+//   if (f >= 90) {
+//     subjects.name = students[i].name;
+//     subjects.average = f;
+//     console.log(subjects);
+//   }
+// }
+
+// const employees = [
+//   { name: "Амгалан", salary: 1000, bonus: 200, department: "IT" },
+//   { name: "Номин", salary: 1500, bonus: 300, department: "HR" },
+//   { name: "Баяр", salary: 1200, bonus: 100, department: "IT" },
+// ];
+
 let array = [];
 let value = 3;
 
