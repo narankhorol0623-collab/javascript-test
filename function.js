@@ -297,23 +297,189 @@
 // const utga = bodlogo19(-8);
 // console.log(utga);
 
-const bodlogo20 = (a) => {
-  if (a[a.length - 1] == 1 || a[a.length - 1] == 6) {
-    a = "Monday";
+// const bodlogo20 = (a) => {
+//   if (a[a.length - 1] == 1 || a[a.length - 1] == 6) {
+//     a = "Monday";
+//   }
+//   if (a[a.length - 1] == 2 || a[a.length - 1] == 7) {
+//     a = "Tuesday";
+//   }
+//   if (a[a.length - 1] == 3 || a[a.length - 1] == 8) {
+//     a = "Wednesday";
+//   }
+//   if (a[a.length - 1] == 4 || a[a.length - 1] == 9) {
+//     console.log("Thursday");
+//   }
+//   if (a[a.length - 1] == 5 || a[a.length - 1] == 0) {
+//     console.log("Friday");
+//   }
+//   return a;
+// };
+// const yeo = bodlogo20("1374");
+// console.log(yeo);
+
+//String Method Bodlogo//
+// const text = (a) => {
+//   // a = Javascript
+//   const result = a.indexOf(a[a.length - 1]);
+//   return result;
+// };
+// const utga = text("JavaScript");
+// console.log(utga);
+
+// const letter = (a) => {
+//   const result = a.charCodeAt(a);
+//   return result;
+// };
+// const utga = letter("A");
+// console.log(utga);
+
+// const text = (a) => {
+//   const result = a.split("Java");
+//   return result;
+// };
+// const utga = text("JavaScript");
+// console.log(utga);
+
+// const sentence = (a) => {
+//   const result = a.replace("cats", "dogs");
+//   return result;
+// };
+// const utga = sentence("I like cats.");
+// console.log(utga);
+
+// const msg = (a) => {
+//   const result = a.replaceAll("wow", "haha");
+//   return result;
+// };
+// const utga = msg("*wow wow wow*");
+// console.log(utga);
+
+// const sentence = (a) => {
+//   const result = a.split(",");
+//   return result;
+// };
+// const utga = sentence("Apple, Banana, Kiwi");
+// console.log(utga);
+
+// const email = (a) => {
+//   if (a.includes("@gmail.com")) {
+//     console.log("This is Email");
+//   } else {
+//     console.log("This is not email");
+//   }
+//   return email;
+// };
+// const utga = email("sumiyagmail.com");
+
+// const laugh = (a) => {
+//   const result = a.repeat(5);
+//   return result;
+// };
+
+// console.log(laugh("haha "));
+
+// const msg = (a) => {
+//   const result = a.replaceAll("+", " ");
+//   return result;
+// };
+// const utga = msg("apple ++++ banana ++++ apple");
+// console.log(utga);
+
+// const msg = (a) => {
+//   const trimmed = [];
+//   const cleared = a.split("++++");
+//   for (let i = 0; i < cleared.length; i++) {
+//     trimmed.push(cleared[i].trim());
+//   }
+//   return trimmed.join(" ");
+// };
+// const result = msg("apple ++++ banana ++++ apple");
+// console.log(result);
+
+// const text = (a) => {
+//   const result = a[0].toUpperCase() + a.slice(1);
+//   return result;
+// };
+// const utga = text("javascript");
+// console.log(utga);
+
+// const text = (a) => {
+//   const result = a[0].toUpperCase() + a.slice(1);
+//   return result;
+// };
+// const utga = text("hi namaig ter gedeg.");
+// console.log(utga);
+
+// const bodlogo = (a, b) => {
+//   a = "Hello";
+//   b = "cutie";
+//   const result = a.concat(b);
+
+//   return result;
+// };
+// const utga = bodlogo(a, b);
+
+// const text = (a) => {
+//   const result = a.indexOf("fun");
+//   return result;
+// };
+// const utga = text("Javascript is fun");
+// console.log(utga);
+
+// const letters = (a) => {
+//   const result = a.replaceAll("a,b,c,d", "- - - - ");
+//   return result;
+// };
+// const utga = letters("a,b,c,d");
+// console.log(utga);
+
+// const text = (a) => {
+//   if (a[("a", "i")]) {
+//     console.log(a);
+//   }
+// };
+
+// const number = (number) => {
+//   const result = number.slice(-4);
+//   const hidden = "*".repeat(number.length - 4);
+//   return hidden + result;
+// };
+// const utga = number("1234567890");
+// console.log(utga);
+
+// const letters = (a) => {
+//   let giiguulegch = "qwrtpsdfghjklzxcbnm";
+//   let egshig = "eyuioav";
+//   let niilberegshig = [];
+//   let niilbergiiguulegch = [];
+//   for (let i = 0; i < a.length; i++) {
+//     for (let j = 0; j < giiguulegch.length; j++) {
+//       if (a[i] == giiguulegch[j]) {
+//         niilbergiiguulegch.push(a[i]);
+//       }
+//       if (a[i] == egshig[j]) {
+//         niilberegshig.push(a[i]);
+//       }
+//     }
+//   }
+//   return {
+//     egshig: niilberegshig.length,
+//     giiguulegch: niilbergiiguulegch.length,
+//   };
+// };
+// const utga = letters("soliorrr");
+// console.log(utga);
+
+const text = (a) => {
+  const b = a.split(" ");
+  let c = b[0];
+  for (let i = 0; i < b.length; i++) {
+    if (c.length < b[i].length) {
+      c = b[i];
+    }
   }
-  if (a[a.length - 1] == 2 || a[a.length - 1] == 7) {
-    a = "Tuesday";
-  }
-  if (a[a.length - 1] == 3 || a[a.length - 1] == 8) {
-    a = "Wednesday";
-  }
-  if (a[a.length - 1] == 4 || a[a.length - 1] == 9) {
-    console.log("Thursday");
-  }
-  if (a[a.length - 1] == 5 || a[a.length - 1] == 0) {
-    console.log("Friday");
-  }
-  return a;
+  return c;
 };
-const yeo = bodlogo20("1376");
-console.log(yeo);
+const hhe = text("I love JavaScript programming");
+console.log(hhe);
