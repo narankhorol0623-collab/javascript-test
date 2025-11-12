@@ -471,15 +471,105 @@
 // const utga = letters("soliorrr");
 // console.log(utga);
 
-const text = (a) => {
-  const b = a.split(" ");
-  let c = b[0];
-  for (let i = 0; i < b.length; i++) {
-    if (c.length < b[i].length) {
-      c = b[i];
-    }
-  }
-  return c;
-};
-const hhe = text("I love JavaScript programming");
-console.log(hhe);
+// const text = (a) => {
+//   const b = a.split(" ");
+//   let c = b[0];
+//   for (let i = 0; i < b.length; i++) {
+//     if (c.length < b[i].length) {
+//       c = b[i];
+//     }
+//   }
+//   return c;
+// };
+// const hhe = text("I love JavaScript programming");
+// console.log(hhe);
+
+//Array methods bodlogo
+
+// const utga = ["apple", "banana", "kiwi", "watermelon", "mango"];
+// console.log(utga[0], utga[i.length - 1]);
+
+// const fruit = ["apple", "banana"];
+// fruit.push("mango");
+// console.log(fruit);
+
+// const number = [1, 2, 3, 4];
+// number.pop();
+// console.log(number);
+
+// const a = [10, 20, 30];
+// a.unshift(5);
+// console.log(a);
+
+// const b = [100, 200, 300];
+// b.shift();
+// console.log(b);
+
+// const c = [1, 2, 33];
+// const d = [4, 5, 6];
+// const newArray = c.concat(d);
+// console.log(newArray);
+
+// const hehe = ["apple", "kiwi", "banana"];
+// console.log(hehe.includes("mango"));
+
+// const animals = ["cat", "dog", "bird"];
+// console.log(animals.indexOf("dog"));
+
+// const love = ["I", "love", "JavaScript."];
+// console.log(love.join(" "));
+
+// const slice = [10, 20, 30, 40, 50];
+// console.log(slice.slice(0, 3));
+
+// const splice = [1, 2, 3, 4];
+// splice.splice(1, 1);
+// console.log(splice);
+
+// const reverse = [1, 2, 3, 4, 5];
+// console.log(reverse.reverse());
+
+// const sort = ["banana", "apple", "cherry"];
+// let sort1 = sort.sort((a, b, c) => a, b, c);
+// console.log(sort1);
+
+// const nini = (1, 2, 3, 4);
+// console.log(Array.isArray(nini));
+
+// const urt = ["red", "blue", "yellow"];
+// console.log(urt.length);
+
+// const splice = [10, 20, 30];
+// splice.splice(1, 1, 25);
+// console.log(splice);
+
+// const massive1 = ["JavaScript", "React"];
+// const massive2 = ["HTML", "CSS"];
+// let value = massive1.concat(massive2).length;
+// console.log(value);
+
+// const splice = [1, 2, 3, 4, 5];
+// splice.splice(3, 5);
+// console.log(splice);
+
+// const splice2 = [5, 10, 15, 20];
+// splice2.splice(3, 3);
+// console.log(splice2);
+
+// const massive = [100, 20, 300];
+// if (massive.includes(200)) {
+//   console.log("baina");
+// } else {
+//   console.log("baihgui");
+// }
+
+//Object method bodlogo
+
+const person = { Name: "Bold", Age: 23, City: "Ulaanbaatar" };
+console.log(person.Name);
+
+const newArray = { ...person, Age: 30 };
+// bodlogo = newArray;
+console.log(newArray);
+
+const clone = { Job: "Developer" };
