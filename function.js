@@ -560,16 +560,218 @@
 // if (massive.includes(200)) {
 //   console.log("baina");
 // } else {
+
 //   console.log("baihgui");
 // }
 
 //Object method bodlogo
 
-const person = { Name: "Bold", Age: 23, City: "Ulaanbaatar" };
-console.log(person.Name);
+// const person = { Name: "Bold", Age: 23, City: "Ulaanbaatar" };
+// const person1 = { name: "Bataa" };
+// const c = Object.assign(person.Name + person1.name);
+// console.log(c);
 
-const newArray = { ...person, Age: 30 };
-// bodlogo = newArray;
-console.log(newArray);
+// console.log(a.name);
+// const newArray = { ...a, age: 30 };
 
-const clone = { Job: "Developer" };
+// console.log(newArray);
+
+// a.job = "Developer";
+// console.log(a);
+
+// delete a.city;
+// console.log(a);
+// const person1 = Object.keys(person);
+// console.log(b);
+
+// const person1 = Object.values(a);
+// console.log(person1);
+// const person1 = Object.entries(person);
+// console.log(person1);
+//
+// console.log("mail" in person);
+
+// for (let i in person) {
+//   console.log(i, person[i]);
+// }
+// const person1 = { name: "fgdfdg", age: 21, city: "sdgsdg", mail: "sdgdfgdgf" };
+// const c = Object.assign(a + b);
+// const c = spread(...a);
+// console.log(c);
+
+// person.job = "Stripper";
+// person.husband = "Crown Tulgaa";
+// person.instagram = "Jessicacash2k";
+// console.log(person);
+
+// if (person.hasOwnProperty(password)) {
+//   console.log("baigaa");
+// }
+
+// console.log(JSON.stringify(a));
+// const person1 = "name haha";
+// const hehe = JSON.stringify(person);
+// console.log(JSON.parse(hehe));
+// console.log(person1.length);
+
+// const greet = (name, callback) => {
+//   console.log(`Hello, ${name}!`);
+//   callback();
+// };
+// const printhello = () => {
+//   console.log("hello");
+// };
+// greet("James", printhello);
+
+// const add = (a, b, callback) => {
+//   const templateString = `${a},${b}`;
+//   callback(a, b);
+// };
+// const print = (Text) => {
+//   console.log(Text);
+// };
+// add(1, 2, print);
+
+// const calculateSquare = (num, callback) => {
+//   const templateString = num * num;
+//   callback(templateString);
+// };
+// const print = (number) => {
+//   console.log(number);
+// };
+// calculateSquare(3, print);
+
+// const printGoodbye = (greet, callback) => {
+//   console.log(greet);
+//   callback(greet);
+// };
+// const printBye = (a) => {
+//   console.log(a);
+// };
+// printGoodbye("Goodbye", printBye);
+
+// const displaySum = (a, b, callback) => {
+//   const template = a + b;
+//   callback(template);
+// };
+// const printnum = (n) => {
+//   console.log(n);
+// };
+// displaySum(2, 2, printnum);
+
+// const checkEven = (num, callback) => {
+//   if (num % 2 === 0) {
+//     console.log("tegsh");
+//   } else {
+//     console.log("sondgoi");
+//   }
+//   callback(num);
+// };
+// const aaa = () => {
+//   console.log(aaa);
+// };
+// checkEven(5, aaa);
+
+// const showAlert = (a, callback) => {
+//   if (a == "Continue?") {
+//     console.log(true);
+//   }
+// };
+// const print = (c) => {
+//   console.log(c);
+// };
+// showAlert("Continue?", print);
+
+// const wish = (age, callback) => {
+//   console.log(wish);
+//   callback();
+// };
+// const print = () => {
+//   console.log(print);
+// };
+// wish("hello", print);
+
+// const printArray = (arr, callback) => {
+//   console.log(printArray);
+//   callback(arr);
+// };
+// const print = (arr) => {
+//   console.log(print);
+// };
+// arr = [1, 2, 3, 4];
+// printArray(arr, print);
+
+// const getLength = (String, callback) => {
+//   console.log(String);
+//   callback(String);
+// };
+// const print = (String) => {
+//   console.log(print);
+// };
+// getLength("ariuna".length, print);
+
+// const uppercase = (str, callback) => {
+//   console.log(str);
+//   callback(str);
+// };
+// const print = (str) => {
+//   console.log(str);
+// };
+// uppercase("wow yaamaarch umde".toUpperCase(), print);
+
+// const uppercase = (ug, callback) => {
+//   console.log(ug);
+//   callback(ug);
+// };
+// const print = (ug) => {
+//   console.log(print);
+// };
+// uppercase("yaayaa".toUpperCase(), print);
+
+// const randomToo = (a, print) => {
+//   print(a(1, 10));
+// };
+
+// const getRandomInt = (min, max) => {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// };
+// const print = (hehe) => {
+//   console.log(hehe);
+// };
+// randomToo(getRandomInt, print);
+
+// const eyreg = (b) => {
+//   print(b > 0);
+// };
+
+// const checkPositive = (num) => {
+//   if (num > 0) {
+//     console.log(num);
+//     callback();
+//   }
+// };
+// const print = (too) => {
+//   console.log(too);
+// };
+// eyreg(15, print);
+
+// const urt = (a, print) => {
+//   print(a.length);
+// };
+// const checkStringLength = (str, callback) => {
+//   if (str.length > 5) {
+//     console.log("taarch vain");
+//   } else {
+//     console.log("taarahgui bn");
+//   }
+//   callback(str);
+// };
+
+// const print = (hehe) => {
+//   console.log(hehe);
+// };
+// checkStringLength("hhohhuhuhu".length, print);
+
+// const stars = () => {};
